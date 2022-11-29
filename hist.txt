@@ -1,0 +1,39 @@
+ls -a
+cat .bash_history 
+rm .bash_history 
+vi
+ping google.com
+ls -a
+echo $0++++
+ls -a
+echo Hello world++
+sudo apt-get install git
+echo 'set +o history' >> ~/.bashrc
+cat .bashrc | grep hit
+cat .bashrc | grep hist
+ls /etc/shadow
+ls -a | grep bash
+cat .bashrc.original 
+exit
+lsof –RPni :6667
+sudo apt-get install lsof
+lsof –RPni :6667
+lsof –RPni :135
+lsof -h
+lsof
+lsof -Pnp *
+lsof –RPni :22
+lsof –RPni :0
+lsof –Pni
+exit
+cat tail -f purr
+tail -h
+tail --help
+cat tail -f purr
+cat tail-f purr
+ping google.com
+exit
+pwd
+exit
+history 
+ls -a
