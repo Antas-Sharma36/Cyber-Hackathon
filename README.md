@@ -43,3 +43,13 @@ So, when we invoke the history in the terminal, we will get the modified history
 3. Give the shell script execution rights using ```chmod +x driver.sh```.
 4. Run the shell script(in the background if you want to keep it running)
 5. Check using the history file - ```cat .zsh_history```
+
+## Note - 
+
+This project is still under development.
+
+Some of our goals are - 
+
+1. Replacing the python code with C code as it is one of the languages that can utilize the history functions required here (https://www.man7.org/linux/man-pages/man3/history.3.html#History_Functions).
+2. A terminal history spoofing detection system.
+3. A more intelligent algorithm for replacing the commands with something else. For now, we are just doing it randomly.
