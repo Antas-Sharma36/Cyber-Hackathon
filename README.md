@@ -19,11 +19,11 @@ These 40 Commands are those that can be used for attacking other systems.
 
 The project consists of three files - a python script, a shell script and a text file.
 
-The shell script does a few things - first it give the python file execution rights.
+The shell script does a few things - first it pauses the history and gives the python file execution rights 
 
 Then it copies the history file into the hist.txt
 
-Then it pauses the history and runs the python file.
+Then it runs the python file.
 
 The python script simply reads the history that is copied into the hist.txt file and replaces all commands that are in the list of the 40 commands that can be used to attack 
 other devices, with any random command from a list of 20 other commands. 
